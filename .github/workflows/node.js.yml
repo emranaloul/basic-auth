@@ -26,4 +26,4 @@ jobs:
     - run: npm test
       env:
         CI: true
-        MONGOOSE_TEST_URI: mongodb+srv://emran:1234@cluster0.32b6w.mongodb.net/test
+        MONGOOSE_TEST_URI: mongodb+srv://emran:Ltuc@1234@cluster0.32b6w.mongodb.net/test

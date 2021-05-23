@@ -19,13 +19,13 @@
   },
   "homepage": "https://github.com/emranaloul/basic-auth#readme",
   "dependencies": {
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.0.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongoose": "^5.12.10"
   },
   "devDependencies": {
-    "base-64": "^1.0.0",
-    "bcrypt": "^5.0.1",
     "jest": "^26.6.3",
     "supertest": "^6.1.3"
   }

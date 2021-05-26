@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-05-23T12:13:18.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="pQ92yDEIEilK-Fmuuiet" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-26T23:09:59.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="CSTz_9VNRvsp-3p9TyJ5" version="14.7.1" type="github">
   <diagram id="IXUus91m1n6SOKsidamq" name="Page-1">
     <mxGraphModel dx="1422" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IZFK-UrmvVQLeciREFfq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZFK-UrmvVQLeciREFfq-1" target="IZFK-UrmvVQLeciREFfq-2">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IZFK-UrmvVQLeciREFfq-1" target="IZFK-UrmvVQLeciREFfq-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="550" y="160" />
@@ -12,12 +12,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-21" value="encrypt the password using salt and hach&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZFK-UrmvVQLeciREFfq-3">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-21" value="encrypt the password using salt and hach&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IZFK-UrmvVQLeciREFfq-3" vertex="1" connectable="0">
           <mxGeometry x="-0.8522" y="3" relative="1" as="geometry">
             <mxPoint x="58" y="53" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-19" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;encrypt the password using salt and hach&amp;nbsp;&lt;/span&gt;&#xa;&#xa;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZFK-UrmvVQLeciREFfq-1" target="IZFK-UrmvVQLeciREFfq-2">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-19" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;encrypt the password using salt and hach&amp;nbsp;&lt;/span&gt;&#xa;&#xa;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IZFK-UrmvVQLeciREFfq-1" target="IZFK-UrmvVQLeciREFfq-2" edge="1">
           <mxGeometry y="10" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="300" y="160" />
@@ -26,37 +26,37 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-1" value="index.js" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-1" value="index.js" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.855;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" edge="1" parent="1" source="IZFK-UrmvVQLeciREFfq-2" target="IZFK-UrmvVQLeciREFfq-12">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.855;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" parent="1" source="IZFK-UrmvVQLeciREFfq-2" target="IZFK-UrmvVQLeciREFfq-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="461" y="345" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-22" value="save username and encrypted password&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZFK-UrmvVQLeciREFfq-13">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-22" value="save username and encrypted password&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IZFK-UrmvVQLeciREFfq-13" vertex="1" connectable="0">
           <mxGeometry x="0.819" y="2" relative="1" as="geometry">
-            <mxPoint x="88" y="-54" as="offset" />
+            <mxPoint x="38" y="-24" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" edge="1" parent="1" source="IZFK-UrmvVQLeciREFfq-2" target="IZFK-UrmvVQLeciREFfq-12">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" parent="1" source="IZFK-UrmvVQLeciREFfq-2" target="IZFK-UrmvVQLeciREFfq-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="390" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-24" value="check&amp;nbsp; if username and password sent as saved" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZFK-UrmvVQLeciREFfq-15">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-24" value="check&amp;nbsp; if username and password sent as saved" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IZFK-UrmvVQLeciREFfq-15" vertex="1" connectable="0">
           <mxGeometry x="-0.1955" y="1" relative="1" as="geometry">
             <mxPoint x="-100" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-2" value="server.js" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-2" value="server.js" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="30.003198504458467" as="sourcePoint" />
             <mxPoint x="375" y="110" as="targetPoint" />
@@ -66,15 +66,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-17" value="send username and password&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZFK-UrmvVQLeciREFfq-11">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-17" value="send username and password&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IZFK-UrmvVQLeciREFfq-11" vertex="1" connectable="0">
           <mxGeometry x="0.2861" y="-2" relative="1" as="geometry">
             <mxPoint x="-109" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-7" value="/signin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-7" value="/signin" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="-30" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.842;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IZFK-UrmvVQLeciREFfq-8" target="IZFK-UrmvVQLeciREFfq-1">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.842;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="IZFK-UrmvVQLeciREFfq-8" target="IZFK-UrmvVQLeciREFfq-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470" y="100" as="targetPoint" />
             <Array as="points">
@@ -83,15 +83,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-14" value="register username and passowrd" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZFK-UrmvVQLeciREFfq-10">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-14" value="register username and passowrd" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IZFK-UrmvVQLeciREFfq-10" vertex="1" connectable="0">
           <mxGeometry x="-0.3477" y="3" relative="1" as="geometry">
             <mxPoint x="47" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-8" value="/signup" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-8" value="/signup" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="-30" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="IZFK-UrmvVQLeciREFfq-12" target="IZFK-UrmvVQLeciREFfq-1">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="IZFK-UrmvVQLeciREFfq-12" target="IZFK-UrmvVQLeciREFfq-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="150" y="455" />
@@ -99,13 +99,107 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-26" value="give authentication when matches records" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZFK-UrmvVQLeciREFfq-25">
+        <mxCell id="IZFK-UrmvVQLeciREFfq-26" value="give authentication when matches records" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IZFK-UrmvVQLeciREFfq-25" vertex="1" connectable="0">
           <mxGeometry x="0.1169" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZFK-UrmvVQLeciREFfq-12" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="rGS0sqxChEeohPwr25EP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IZFK-UrmvVQLeciREFfq-12" target="rGS0sqxChEeohPwr25EP-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-18" value="read only" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rGS0sqxChEeohPwr25EP-17">
+          <mxGeometry x="0.1747" relative="1" as="geometry">
+            <mxPoint x="-21" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZFK-UrmvVQLeciREFfq-12" target="rGS0sqxChEeohPwr25EP-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-20" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rGS0sqxChEeohPwr25EP-19">
+          <mxGeometry x="0.2889" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-21" value="creat &amp;amp; read" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rGS0sqxChEeohPwr25EP-19">
+          <mxGeometry x="0.2622" y="3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IZFK-UrmvVQLeciREFfq-12" target="rGS0sqxChEeohPwr25EP-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="510" />
+              <mxPoint x="430" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-25" value="create, edit and read" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rGS0sqxChEeohPwr25EP-22">
+          <mxGeometry x="-0.2857" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZFK-UrmvVQLeciREFfq-12" target="rGS0sqxChEeohPwr25EP-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-28" value="create, update delete and read" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rGS0sqxChEeohPwr25EP-26">
+          <mxGeometry x="-0.2851" y="-3" relative="1" as="geometry">
+            <mxPoint y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZFK-UrmvVQLeciREFfq-12" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="375" y="400" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-1" value="basic middleware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-2" value="&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;bearer middleware&lt;/span&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-9" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rGS0sqxChEeohPwr25EP-1" target="IZFK-UrmvVQLeciREFfq-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="240" as="sourcePoint" />
+            <mxPoint x="450" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-11" value="username and password verification" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rGS0sqxChEeohPwr25EP-9">
+          <mxGeometry x="-0.1951" y="-1" relative="1" as="geometry">
+            <mxPoint x="98" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-10" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.917;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rGS0sqxChEeohPwr25EP-2" target="IZFK-UrmvVQLeciREFfq-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="240" as="sourcePoint" />
+            <mxPoint x="450" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-12" value="token verification" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rGS0sqxChEeohPwr25EP-10">
+          <mxGeometry x="-0.1673" y="1" relative="1" as="geometry">
+            <mxPoint x="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-13" value="user" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="580" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-14" value="writer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="580" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-15" value="editor" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rGS0sqxChEeohPwr25EP-16" value="admin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="570" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

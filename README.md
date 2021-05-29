@@ -98,6 +98,6 @@ npm test
 <br><br>
 
 ## UML Diagram
-![basic-auth](https://h.top4top.io/p_19696n1191.png)
+![basic-auth](basic-auth.png)
 
 

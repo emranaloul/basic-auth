@@ -3,9 +3,10 @@ const express = require('express');
 const router = express.Router();
 const Users = require('./auth/models/users-model');
 const authorization = require('./auth/middleware/basic');
+const multer = require('multer');
+const upload = multer();
 
-
-router.post('/signup', async (req, res) => {
+router.post('/signup', upload.none() , async (req, res) => {
   console.log('inside signup', req.body);
   try { 
     console.log(req.body);

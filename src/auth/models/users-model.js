@@ -14,14 +14,12 @@ const usersSchema = mongoose.Schema({
 
 const Users = mongoose.model('users', usersSchema);
 
-// usersSchema.pre('save',  async function(next) {
-//   let encryptedPassword = await bcrypt.hash(this.password, 10);
-//   this.password = encryptedPassword;
-//   next();
-// });
 
-// usersSchema.methods.isAuthenticated = function(password){
-//   return bcrypt.compare(password,this.password);
-// };
+usersSchema.pre('save',function (next){
+  let pwd =  bcrypt.hash(this.password, 10);
+  this.password = pwd;
+  next();
+});
+
 
 module.exports = Users;

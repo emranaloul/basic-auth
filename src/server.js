@@ -2,12 +2,12 @@
 
 // 3rd Party Resources
 const express = require('express');
-const bcrypt = require('bcrypt');
-const base64 = require('base-64');
-const mongoose = require('mongoose');
+// const bcrypt = require('bcrypt');
+// const base64 = require('base-64');
+// const mongoose = require('mongoose');
 const notFoundHndler = require('./middleware/404');
 const errorHandler = require('./middleware/500'); 
-const rounter = require('./routes');
+const router = require('./routes.js');
 
 
 // Prepare the express app
@@ -20,9 +20,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // app.use(express.data({ extended: true }));
 
-app.use('/', rounter);
-app.use('*', notFoundHndler);
+app.get('/bad', (req, res) => {
+  throw new Error('Something went wrong :(');
+});
+
+app.use('/api/v1', router);
 app.use(errorHandler);
+app.use('*', notFoundHndler);
 
 /**
  * start 

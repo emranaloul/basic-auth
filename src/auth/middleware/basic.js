@@ -2,7 +2,6 @@
 const base64 = require('base-64');
 const bcrypt = require('bcrypt');
 const Users = require('../models/users-model');
-// const isAuthenticated = require('../models/users-model');
 
 
 module.exports = async ( req,res,next ) =>{
@@ -14,9 +13,7 @@ module.exports = async ( req,res,next ) =>{
   
   try {
     const user = await Users.findOne({ username: username });
-    console.log('emran2',user);
     const valid = await bcrypt.compare(password, user.password);
-    // const valid = await user.isAuthenticated(password);
     if (valid) {
       req.user = user;
       next();
